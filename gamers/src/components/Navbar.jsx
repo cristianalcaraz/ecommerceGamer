@@ -6,6 +6,7 @@ import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
+import CardWidget from './CardWidget/CardWidget';
 
 export default function ButtonAppBar() {
   return (
@@ -18,6 +19,7 @@ export default function ButtonAppBar() {
           <button> playstation 4</button>
           <button> playstation 5</button>
         </Toolbar>
+        <CardWidget/>
       </AppBar>
     </Box>
   );
