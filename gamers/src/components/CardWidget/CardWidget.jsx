@@ -1,13 +1,13 @@
-import cart from "./assets/carrito.jpg"
+import cart from "./assets/carrito.jpg";
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 
-const CardWidget = () => {
+const CardWidget = ({ quantity }) => {
     return (
         <div>
-            <ShoppingCartIcon/>
-            0
+            <ShoppingCartIcon />
+            {quantity}
         </div>
-    )
-
+    );
 }
-export default CardWidget
+
+export default CardWidget;
